@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "notebook.output.wordWrap": true,
+    "jupyter.kernels.excludePythonEnvironments": [
+        "/usr/bin/python3"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Python",
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter"
+			]
+		}
+	},
+	"postCreateCommand": "[ -e .env ] || cp .env.defaults .env"
+}
